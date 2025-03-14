@@ -1,0 +1,159 @@
+/* Estilos globales */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9fafb;
+  color: #374151;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la lista de usuarios */
+.user-list {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.user-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-list li {
+  background-color: #f3f4f6;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-list li span {
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+/* Estilos para el formulario */
+.user-form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.user-form h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.user-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #374151;
+}
+
+.user-form input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.user-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-form button:hover {
+  background-color: #2563eb;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .user-list li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .user-list li span {
+    margin-bottom: 5px;
+  }
+
+  .user-form h2 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .user-form input {
+    font-size: 0.9rem;
+  }
+
+  .user-form button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  .user-list li {
+    padding: 8px;
+  }
+
+  .user-list li span {
+    font-size: 0.9rem;
+  }
+
+  .user-form h2 {
+    font-size: 1rem;
+  }
+
+  .user-form input {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+
+  .user-form button {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+}

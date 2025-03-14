@@ -27,8 +27,8 @@ function App() {
   };
 
   return (
-    <div>
-      <h1>Lista de Usuarios</h1>
+    <div className="container">
+      <h1>Gestión de Usuarios</h1>
       <UserList users={users} />
       <UserForm addUser={addUser} />
     </div>

@@ -12,7 +12,8 @@ function UserForm({ addUser }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="user-form">
+      <h2>Agregar Usuario</h2>
       <input
         type="text"
         placeholder="Nombre"
