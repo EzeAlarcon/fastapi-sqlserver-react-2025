@@ -29,8 +29,8 @@ function App() {
   return (
     <div className="container">
       <h1>Gestión de Usuarios</h1>
-      <UserList users={users} />
       <UserForm addUser={addUser} />
+      <UserList users={users} />
     </div>
   );
 }
