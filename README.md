@@ -174,3 +174,37 @@ Evidencia vista en equipo de computo Documentacion EndPoins FastApi Formato JSON
 
 ![image](https://github.com/user-attachments/assets/d918f88e-1f63-4725-90e5-73a3ed65cdeb)
 
+
+# 📷 Evidencia levantamiento Docker
+
+
+![image](https://github.com/user-attachments/assets/3c5d0891-56a2-4bb9-8a05-b93d70afe085)
+
+
+![image](https://github.com/user-attachments/assets/08ef5057-626d-4c99-aadd-260946e0c1c2)
+
+
+![image](https://github.com/user-attachments/assets/6552858d-7162-440c-95e6-84bfbcda9217)
+
+
+![image](https://github.com/user-attachments/assets/fda8d32d-bceb-43c0-8eb4-ff7ccd131d36)
+
+
+![image](https://github.com/user-attachments/assets/057274a3-7da6-4402-8547-05b822d02546)
+
+
+![image](https://github.com/user-attachments/assets/32e2e5a6-1c7c-4f1a-90c6-f7bd0643624d)
+
+
+![image](https://github.com/user-attachments/assets/cee1a075-82c7-43e7-8b19-1e806afd6f3c)
+
+
+
+
+
+
+
+
+
+
+
