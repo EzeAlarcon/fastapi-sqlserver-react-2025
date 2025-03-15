@@ -1,4 +1,4 @@
 fastapi==0.68.0
 uvicorn==0.15.0
 httpx==0.18.2
-python-socketio
+websockets>=11.0
